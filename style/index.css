@@ -1,0 +1,164 @@
+body{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    background: #E5E5E5;
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header__logo{
+    position: absolute;
+width: 102px;
+height: 16px;
+left: 47px;
+top: 40px;
+}
+.header__logo a{
+    font-family: GT America;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: -1px;
+color: #000000;
+}
+.header__menu{
+    position: absolute;
+width: 69px;
+height: 83px;
+left: 1323px;
+top: 43px;
+}
+.header__menu a{
+    font-family: TT Travels;
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+text-align: right;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #000000;
+}
+.container img{
+    background-repeat: no-repeat;
+    position: absolute;
+width: 608.38px;
+height: 726.48px;
+left: 473px;
+top: 7px;
+   
+
+      
+}
+.container__img{
+   max-width: 1440px;
+   
+}
+.girl1 img{
+    position: absolute;
+    width: 238px;
+    height: 331px;
+    left: 220px;
+    top: 200px;
+}
+.girl2 img{
+    position: absolute;
+    width: 476px;
+    height: 702px;
+    left: 490px;
+    top: 70px;
+}
+.girl3 img{
+    position: absolute;
+    width: 345px;
+    height: 238px;
+    left: 1000px;
+    top: 400px;
+}
+.container__swiper{
+    display: flex;
+    max-width: 1440px;
+   
+}
+.swiper-slide{
+    /* font-family: Schnyder Cond XL Demi;
+font-size: 125.581px;
+line-height: 108px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+mix-blend-mode: darken;
+border: 0.837209px solid #580300;
+box-sizing: border-box; */
+}
+.swiper-slide:nth-child(1){
+    position: absolute;
+    width: 609px;
+    height: 109px;
+    left: -526.59px;
+    top: 389.94px;
+    
+    font-family: Schnyder Cond XL Demi;
+    font-size: 125.581px;
+    line-height: 86%;
+    /* or 108px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    mix-blend-mode: darken;
+    box-sizing: border-box;
+    transform: rotate(-1.5deg);
+}
+.swiper-slide:nth-child(2){
+    position: absolute;
+width: 609px;
+height: 109px;
+left: 416px;
+top: 376px;
+
+font-family: Schnyder Cond XL Demi;
+font-size: 125.581px;
+line-height: 108px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #580300;
+
+mix-blend-mode: darken;
+}
+.swiper-slide:nth-child(3){
+    position: absolute;
+width: 609px;
+height: 109px;
+left: 1346.53px;
+top: 368.06px;
+
+font-family: Schnyder Cond XL Demi;
+font-size: 125.581px;
+line-height: 86%;
+/* or 108px */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+mix-blend-mode: darken;
+box-sizing: border-box;
+transform: rotate(1.5deg);
+}
