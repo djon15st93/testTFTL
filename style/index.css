@@ -4,6 +4,7 @@ html,body{
 }
 body {
     max-width: 1440px;
+    text-align: center;
     margin: 0 auto;
     display: flex;
     width: 100%;
@@ -12,8 +13,9 @@ body {
 
 }
 
-.container {
-    max-width: 1440px;
+.container-fluid {
+    
+    margin: 0 auto;
 }
 
 }
@@ -64,7 +66,7 @@ li {
     width: 69px;
     height: 83px;
     float: right;
-    top: 43px;
+    top: 11px;
 }
 
 .menu-block {
@@ -104,6 +106,7 @@ li {
     left: 220px;
     top: 200px;
     transform: rotate(1.1deg);
+    
 }
 
 .girl2 img {
@@ -112,7 +115,8 @@ li {
     height: 702px;
     left: 490px;
     top: 70px;
-    transform: rotate(1.5deg)
+    transform: rotate(1.5deg);
+    
 }
 
 .girl3 img {
@@ -129,10 +133,11 @@ li {
     height: 100%;
 }
 
-/* .swiper-wrapper {
-
+footer{
+    max-width: 1440px;
     text-align: center;
-} */
+    height: 500px;
+}
 
 .swipe-slider {
     position: relative;
@@ -172,8 +177,8 @@ li {
     position: absolute;
     width: 609px;
     height: 109px;
-    left: -526.59px;
-    top: 389.94px;
+    left: -715.59px;
+    top: 315px;
 
     font-family: Schnyder Cond XL Demi;
     font-size: 125.581px;
@@ -193,13 +198,12 @@ li {
     position: absolute;
     width: 609px;
     height: 109px;
-    left: 416px;
-    top: 376px;
+    left: 300px;
+    top: 300px;
 
     font-family: Schnyder Cond XL Demi;
     font-size: 125.581px;
     line-height: 86%;
-    /* or 108px */
 
     display: flex;
     align-items: center;
@@ -215,13 +219,12 @@ li {
     position: absolute;
     width: 609px;
     height: 109px;
-    left: 1346.53px;
-    top: 368.06px;
+    left: 1276.53px;
+    top: 300px;
 
     font-family: Schnyder Cond XL Demi;
     font-size: 125.581px;
     line-height: 86%;
-    /* or 108px */
 
     display: flex;
     align-items: center;
@@ -231,4 +234,7 @@ li {
     mix-blend-mode: darken;
     box-sizing: border-box;
     transform: rotate(1.5deg);
+}
+.slider1:hover, .slider2:hover, .slider2:hover{
+    cursor: url(../img/circle.png), auto;
 }
