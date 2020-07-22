@@ -5,7 +5,7 @@ let parallaxInstance = new Parallax(scene, {
 parallaxInstance.friction(0.2, 0.2);
 let swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
-  spaceBetween:1300,
+  spaceBetween:1900,
   slidesPerGroup: 1,
   
   loop: true,
@@ -13,6 +13,25 @@ let swiper = new Swiper('.swiper-container', {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
+  }, navigation: {
+    nextEl: '.button-next',
+    prevEl: '.button-prev',
   },
  
+});
+
+$(function(){
+	
+	$('.burgerImg').on('click', function(){
+		
+		$('.menu').slideToggle(300, function(){
+			
+			if($(this).css('display') === 'none'){
+				$(this).removeAttr('style');
+		}
+		
+	});
+	
+ });
+	
 });
